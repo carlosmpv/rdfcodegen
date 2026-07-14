@@ -1,5 +1,4 @@
 [project]
-dynamic = ["version"]
 name = "rdfcodegen"
 version = "0.1.0"
 description = "Generate typed code interfaces from RDF/Turtle ontologies (e.g., schema.org)."
@@ -9,7 +8,9 @@ authors = [
     { name = "carlosmpv", email = "carlosmpvaldes@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "rdflib>=7.6.0",
+]
 keywords = ["rdf", "rdfs", "schema.org", "turtle", "ttl", "codegen", "code-generator", "generator", "typescript"]
 classifiers = [
     "Development Status :: 3 - Alpha",

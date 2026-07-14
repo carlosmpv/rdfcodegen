@@ -156,5 +156,5 @@ export interface SchemaPerson extends SchemaThing {
 
 ## Contributing
 
-<!-- If you find a bug :bug:, please open a [bug report](https://github.com/carlosmpv/rdfcodegen/issues/new?assignees=&labels=bug&template=bug_report.md&title=). -->
-If you have an idea for an improvement or new feature :rocket:, please open a [feature request](https://github.com/carlosmpv/rdfcodegen/issues/new?assignees=&labels=Feature+request&template=feature_request.md&title=).
+If you find a bug :bug:, please open a [bug report](https://github.com/carlosmpv/rdfcodegen/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
+If you have an idea for an improvement or new feature :rocket:, please open a [feature request](https://github.com/carlosmpv/rdfcodegen/issues/new?assignees=&labels=Feature+request&template=feature_request.md&title=)
