@@ -1,6 +1,6 @@
 [project]
 name = "rdfcodegen"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate typed code interfaces from RDF/Turtle ontologies (e.g., schema.org)."
 readme = "README.md"
 license = "MIT"
@@ -19,7 +19,6 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.15",
     "Programming Language :: Python :: 3.16",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Environment :: Console",
     "Typing :: Typed",
