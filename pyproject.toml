@@ -1,13 +1,31 @@
 [project]
+dynamic = ["version"]
 name = "rdfcodegen"
 version = "0.1.0"
-description = "Add your description here"
+description = "Generate typed code interfaces from RDF/Turtle ontologies (e.g., schema.org)."
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "carlosmpv", email = "carlosmpvaldes@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = []
+keywords = ["rdf", "rdfs", "schema.org", "turtle", "ttl", "codegen", "code-generator", "generator", "typescript"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Code Generators",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Programming Language :: Python :: 3.16",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Typing :: Typed",
+]
+
+[project.url]
+Repository = "https://github.com/carlosmpv/rdfcodegen"
 
 [project.scripts]
 rdfcodegen = "rdfcodegen:main"
